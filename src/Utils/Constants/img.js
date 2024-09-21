@@ -1,5 +1,6 @@
 export let imgs = {
     logoSrc: '/assets/img/logo.png',
+    logo1Src: '/assets/img/logo1.png',
     downloadSrc: '/assets/img/download.png',
     imgSect: '/assets/img/Banner.png',
     meImg: '/assets/img/Me .png',

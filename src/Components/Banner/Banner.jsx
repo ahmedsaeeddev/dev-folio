@@ -15,10 +15,18 @@ const Banner = () => {
                         I am available for freelance opportunities to help you build sleek, modern, and efficient web applications.
                     </p>
                     <div className="links text-xl m-3 bg-white">
+                        <a href="https://instagram.com/freel.ancefusion">
                         <i className="fa-brands border-2 border-black m-2 p-2 hover:bg-black hover:text-white rounded fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/ahmedsaeeddev/">
                         <i className="fa-brands border-2 border-black m-2 p-2 hover:bg-black hover:text-white rounded fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ahmed-saeeddev">
                         <i className="fa-brands border-2 border-black m-2 p-2 hover:bg-black hover:text-white rounded fa-linkedin"></i>
+                        </a>
+                        <a href="https://wa.me/+923112348744">
                         <i className="fa-brands border-2 border-black m-2 p-2 hover:bg-black hover:text-white rounded fa-whatsapp"></i>
+                        </a>
                     </div>
                 </div>
                 <div className="ImgSect w-[256px] md:w-[800px]">

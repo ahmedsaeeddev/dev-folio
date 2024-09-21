@@ -4,6 +4,8 @@ import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
 import About from "./Components/About/About";
 import EducationSection from "./Components/Education/Education";
+import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 export const App = () => {
   return (
@@ -14,6 +16,8 @@ export const App = () => {
       <EducationSection />
       <About />
       <Projects />
+      <Contact />
+      <Footer />
       </>
       )
 }

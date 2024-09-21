@@ -1,8 +1,4 @@
-let Education = () => {
-    return (
-        <></>
-    )
-}
+
 const educationData = [
     {
         img: '/assets/img/college.jpeg',
@@ -30,51 +26,6 @@ const educationData = [
     }
 ];
 
-// const EducationCard = ({ img, name, duration, description }) => {
-//     return (
-//         <>
-//             {/* <div className="bg-black m-auto w-[100%] text-white">
-//                 <h1 className="text-[40px] text-center">My <span className="font-bold">Education & Certificates</span></h1>
-//             </div> */}
-//             <div className="bg-gray-800 text-white p-6 rounded-lg flex items-center mb-6 shadow-md">
-//                 <img
-//                     src={img}
-//                     alt={name}
-//                     className="w-16 h-16 mr-6 rounded-full object-cover"
-//                 />
-//                 <div>
-//                     <h2 className="text-xl font-semibold">{name}</h2>
-//                     <p className="text-gray-400">{duration}</p>
-//                     <p className="mt-2 text-gray-300">{description}</p>
-//                 </div>
-//             </div>
-
-//         </>
-//     )
-// };
-
-// const EducationSection = () => {
-//     return (
-//         <>
-//             <div className="p-4 bg-black min-h-screen flex-col flex justify-center items-center">
-//                 <div className="bg-black m-auto w-[100%] text-white">
-//                     <h1 className="text-[40px] text-center">My <span className="font-bold">Education & Certificates</span></h1>
-//                 </div>
-//                 <div className="max-w-4xl w-full px-4">
-//                     {educationData.map((education, index) => (
-//                         <EducationCard
-//                             key={index}
-//                             img={education.img}
-//                             name={education.name}
-//                             duration={education.duration}
-//                             description={education.description}
-//                         />
-//                     ))}
-//                 </div>
-//             </div>
-//         </>
-//     );
-// };
 const EducationCard = ({ img, name, duration, description }) => {
     return (
         <div className="bg-black border-2 hover:bg-[#27272A] border-white text-white p-6 rounded-lg flex flex-col md:flex-row items-center mb-6 shadow-md">
@@ -94,7 +45,7 @@ const EducationCard = ({ img, name, duration, description }) => {
 
 const EducationSection = () => {
     return (
-        <div className="p-8 bg-black min-h-screen flex-col flex justify-center items-center">
+        <div className="p-8 cursor-pointer bg-black min-h-screen flex-col flex justify-center items-center">
             <div className="bg-black m-auto w-full text-white">
                 <h1 className="text-[30px] my-4 md:text-[40px] text-center">
                     My <span className="font-bold">Education & Certificates</span>
