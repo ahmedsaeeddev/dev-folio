@@ -2,6 +2,7 @@ export let imgs = {
     logoSrc: '/assets/img/logo.png',
     downloadSrc: '/assets/img/download.png',
     imgSect: '/assets/img/Banner.png',
+    meImg: '/assets/img/Me .png',
     Read_More: '/assets/img/Read More.png',
 
 }
@@ -34,4 +35,3 @@ export const array = [
         name: 'React JS',
         imgSrc: '/public/icon-react.svg'
     }];
-

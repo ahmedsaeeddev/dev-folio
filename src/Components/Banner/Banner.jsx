@@ -1,16 +1,12 @@
 import { imgs } from "../../Utils/Constants/img"
 const Banner = () => {
-    let style = {
-        webkitTextStrokeWidth: '1px',
-        webkitTextStrokeColor: 'black',
-    }
     return (
         <>
             <div className='my-12 flex p-4 text-center md:text-left flex-col md:flex-row sm:flex-col items-center'>
                 <div className="textSect w-[100%] sm:w-[100%] md:w-[50%]">
-                    <h1 className='text-2xl leading-[42px] md:text-4xl'>
+                    <h1 className='text-2xl leading-[42px] font-light md:text-4xl'>
                         Hello I’am <span className="font-bold">Ahmed Saeed, <br /> Frontend</span>
-                        <span className='font-bold text-white' style={style}> Developer </span>
+                        <span className='font-bold'> Developer </span>
                         Based in <span className="font-bold">Pakistan</span>
                     </h1>
                     <p>
